@@ -1,0 +1,15 @@
+name: PlayerVaults
+version: '${project.version}'
+main: dev.trobanko.playervaults.PlayerVaults
+api-version: 1.18
+authors: [ Trobanko ]
+description: A plugin that implements player vaults!
+commands:
+  vault:
+    description: Open your player vault
+    aliases:
+      - pv
+  setmaxvaults:
+    description: Set the maximum amount of vaults needed
+    aliases:
+      - maxpv
